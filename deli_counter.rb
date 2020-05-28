@@ -1,4 +1,4 @@
-katz_deli = ["Bo"]
+katz_deli = []
 
 def line(line_array)
   if line_array.count >= 1 
@@ -20,7 +20,11 @@ def take_a_number(line_array,name)
 end
 
 def now_serving(line_array)
-  puts "Currently serving #{line_array.first}."
+  if line_array.count > 1 
+    puts "Currently serving #{line_array.first}."
+    line_array.shift
+  else
+    puts "There is nobody waiting to be served."
 end
   
 now_serving(katz_deli)  

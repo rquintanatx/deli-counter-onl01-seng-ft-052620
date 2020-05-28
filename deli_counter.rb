@@ -5,7 +5,7 @@ def line(line_array)
     line_counter = 1
     line_output_array = []
     line_array.each do |name|
-      line_output_array << "#{line_counter}. #{name} "
+      line_output_array << " #{line_counter}. #{name}"
       line_counter += 1 
     end
     puts "The line is currently: " + line_output_array.join

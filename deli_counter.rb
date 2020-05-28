@@ -24,8 +24,7 @@ def now_serving(line_array)
     puts "Currently serving #{line_array.first}."
     line_array.shift
   else
-    puts "There is nobody waiting to be served."
+    puts "There is nobody waiting to be served!"
   end
 end
   
-now_serving(katz_deli)  

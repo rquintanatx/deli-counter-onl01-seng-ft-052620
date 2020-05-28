@@ -20,7 +20,7 @@ def take_a_number(line_array,name)
 end
 
 def now_serving(line_array)
-  puts "Currently serving #{line_array.}"
+  puts "Currently serving #{line_array.first}"
 end
   
 now_serving(katz_deli)  

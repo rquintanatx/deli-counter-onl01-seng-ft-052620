@@ -25,6 +25,7 @@ def now_serving(line_array)
     line_array.shift
   else
     puts "There is nobody waiting to be served."
+  end
 end
   
 now_serving(katz_deli)  

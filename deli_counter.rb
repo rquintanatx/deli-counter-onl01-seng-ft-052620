@@ -8,7 +8,7 @@ def line(line_array)
       line_output_array << " #{line_counter}. #{name}"
       line_counter += 1 
     end
-    puts "The line is currently: " + line_output_array.join
+    puts "The line is currently:" + line_output_array.join
   else 
     puts "The line is currently empty."
   end
